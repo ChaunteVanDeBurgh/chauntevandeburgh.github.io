@@ -1,0 +1,12 @@
+h1, h2, p {
+	font-family: Helvetica;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+#codeblock {
+	text-indent: 5em;
+	font-family: 'Courier New';
+}
