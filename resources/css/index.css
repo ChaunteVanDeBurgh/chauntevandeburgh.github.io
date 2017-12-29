@@ -2,6 +2,16 @@ h1, h2, p {
 	font-family: Helvetica;
 }
 
+header {
+	height: 275px;
+	background-image: url("../images/schoolofathens.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+}
+
 p {
 	font-size: 1.2em;
 }
@@ -9,4 +19,21 @@ p {
 #codeblock {
 	text-indent: 5em;
 	font-family: 'Courier New';
+}
+
+#name {
+	position: relative;
+	top: 35%;
+	font-size: 75px;
+	text-shadow: 0px 1px black;
+}
+
+#music {
+	color: white;
+	background-color: #97A9C1;
+}
+
+#code {
+	color: white;
+	background-color: #FAA879;
 }
