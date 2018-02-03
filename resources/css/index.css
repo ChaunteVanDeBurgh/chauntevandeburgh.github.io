@@ -1,5 +1,6 @@
 body {
 	font-family: helvetica;
+	font-size: 18px;
 }
 
 header {
@@ -11,13 +12,23 @@ header {
 	background-repeat: no-repeat;
 	text-align: center;
 	color: white;
-	margin: 0px;
 }
+
+
+#name {
+	position: relative;
+	top: 35%;
+	font-size: 6rem;
+	font-weight: bold;
+	text-shadow: 0px 1px black;
+}
+
 
 nav {
 	width: 19%;
 	float: left;
 	margin-right: 1%;
+	margin-top: 3px;
 }
 
 nav ul {
@@ -26,13 +37,16 @@ nav ul {
 
 nav li {
 	list-style: none;
-	font-weight: bold;
 	font-size: 2em;
-	color: white;
 	border-right: 1px solid grey;
 	border-bottom: 1px solid grey;
 	padding: 10px;
 	margin: 5px;
+}
+
+nav li a {
+	color: white;
+	font-weight: bold;
 }
 
 nav li:hover {
@@ -61,10 +75,20 @@ li:nth-child(4) {
 main {
 	width: 80%;
 	float: right;
+	display: flex;
+}
+
+#music {
+	width: 50%;
+}
+
+#code {
+	width: 50%;
 }
 
 p {
-	font-size: 1.2em;
+	font-size: 1.2rem;
+	padding: 1rem;
 }
 
 #codeblock {
@@ -72,19 +96,19 @@ p {
 	font-family: 'Courier New';
 }
 
-#name {
-	position: relative;
-	top: 35%;
-	font-size: 75px;
-	text-shadow: 0px 1px black;
+h2 {
+	color: white;
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding: 1rem;
+	margin-top: .5rem;
+	margin-right: .5rem;
 }
 
 #music h2 {
-	color: white;
 	background-color: #97A9C1;
 }
 
 #code h2 {
-	color: white;
 	background-color: #FAA879;
 }
