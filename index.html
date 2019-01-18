@@ -5,6 +5,14 @@
 		<title>Chaunte | Music/Code</title>
 		<link href="./resources/css/reset.css" rel="stylesheet" type="text/css" />
 		<link href="./resources/css/index.css" rel="stylesheet" type="text/css" />
+		<script>
+			var colorChange = function(element) {
+				console.log(element);
+				document.getElementById("link-" + element).style.backgroundColor = "#e5d0b5";
+				document.getElementById('text-' + element).style.color = "blue";
+			}
+		</script>
+		</script>
 	</head>
 	<body>
 	<header>
@@ -13,10 +21,10 @@
 
 	<nav>
 		<ul>
-			<li><a>Music</a></li>
-			<li><a>Code</a></li>
-			<li><a>Books</a></li>
-			<li><a>About</a></li>
+			<li onmouseover="colorChange('music')" id="link-music" ><a id="text-music">Music</a></li>
+			<li onmouseover="colorChange('code')" id="link-code"><a id="text-code">Code</a></li>
+			<li onmouseover="colorChange('books')" id="link-books"><a id="text-books">Books</a></li>
+			<li onmouseover="colorChange('about')" id="link-about"><a id="text-about">About</a></li>
 		</ul>
 	</nav>
 

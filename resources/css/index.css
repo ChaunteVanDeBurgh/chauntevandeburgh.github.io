@@ -49,6 +49,7 @@ nav li a {
 	font-weight: bold;
 }
 
+/*
 nav li:hover {
 	border-right: 3px solid grey;
 	padding-right: 7px;
@@ -57,9 +58,7 @@ nav li:hover {
 	background-color: #e5d0b5;
 }
 
-nav ul li a:hover {
-	color: blue;
-}
+*/
 
 li:nth-child(1) {
 	background-color: #97A9C1;
