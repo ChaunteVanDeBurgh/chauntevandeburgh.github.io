@@ -54,6 +54,11 @@ nav li:hover {
 	padding-right: 7px;
 	border-bottom: 3px solid grey;
 	padding-bottom: 7px;
+	background-color: #e5d0b5;
+}
+
+nav ul li a:hover {
+	color: blue;
 }
 
 li:nth-child(1) {
